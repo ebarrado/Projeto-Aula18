@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        .card {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div>
+                        <img style="width: 80px; height: 25px; margin-left: 20px;" src="img/SENAI_São_Paulo_logo.png">
+
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation" style="margin-right: 20px;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="margin-left: 20px;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search" style="margin-right: 20px;">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="height: 520px;">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="d-block w-100" alt="..." style="height: 520px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="d-block w-100" alt="..." style="height: 520px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="d-block w-100" alt="..." style="height: 520px;">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Deserto</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, mollitia qui. Aliquam
+                            quidem fuga saepe omnis. Tempora sequi repellendus voluptas iusto, ex temporibus, impedit
+                            exercitationem id, necessitatibus voluptatum aliquid. Eveniet.
+                        </p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDeserto">Mais Dicas
+                            ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Praia</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, mollitia qui. Aliquam
+                            quidem fuga saepe omnis. Tempora sequi repellendus voluptas iusto, ex temporibus, impedit
+                            exercitationem id, necessitatibus voluptatum aliquid. Eveniet.
+                        </p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPraia">Mais Dicas ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Montanha</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia laborum nemo aliquam vel,
+                            voluptas amet debitis. Eum, minus expedita! Quod maxime tenetur placeat possimus. Sapiente
+                            commodi qui atque aspernatur reprehenderit.
+                        </p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMontanha">Mais Dicas
+                            ></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary ">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+
+                        <span class="fs-5">Curso de WebDesigner</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nam mollitia assumenda
+                            veritatis pariatur, animi obcaecati iste molestiae? Deserunt fugit perferendis quia delectus
+                            cum. Quae voluptas incidunt veritatis odit praesentium.
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">Home</a></li>
+                        <li class="mb-2"><a href="#">Galeria</a></li>
+                        <li class="mb-2"><a href="#">Contato</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Guias</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a
+                                href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a>
+                        </li>
+                        <li class="mb-2"><a href="https://marilia.sp.senai.br/">Senai Marília</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Projetos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+                        <li class="mb-2"><a href="#">Bootstrap 4</a></li>
+                        <li class="mb-2"><a href="#">Icones</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Outros Cursos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#">AZ-900</a></li>
+                        <li class="mb-2"><a href="#">DP-900</a></li>
+                        <li class="mb-2"><a href="#">AI-900</a></li>
+                        <li class="mb-2"><a href="#">CCNA-1</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- Modal Deserto-->
+    <div class="modal fade" id="modalDeserto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Deserto</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Deserto de Atacama está localizado na região norte do Chile até a fronteira com o Peru.
+                    Com cerca de
+                    1 000 km de extensão, é considerado o deserto mais alto do mundo
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Praia-->
+    <div class="modal fade" id="modalPraia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Praia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Cercada de vegetação nativa, ao chegar na Praia da Baleia a sensação é de que o visitante
+                    encontrou um cantinho totalmente preservado e paradisíaco, mas ainda assim urbanizado e
+                    repleto de atividades!
+
+                    Então, se você está planejando passar uma temporada na região de São Sebastião e curtir a
+                    Praia da Baleia, não irá se arrepender!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Deserto-->
+    <div class="modal fade" id="modalMontanha" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Montanha</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    "Quando as montanhas estão em um conjunto extenso, são chamadas de cordilheiras ou de
+                    cadeias de montanhas. São paisagens espetaculares que atraem muitos alpinistas.
+
+                    Veja algumas das principais cordilheiras do planeta:
+
+                    Andes – na América do Sul
+
+                    Himalaia – na Ásia
+
+                    Montanhas Rochosas – na América do Norte
+
+                    Alpes – Na Europa
+
+                    As montanhas variam de acordo com a altitude, a origem, a idade e o aspecto. Aqui
+                    classificaremos as montanhas de acordo com a sua idade e origem."
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src="js/bootstrap.bundle.min.js">
+        </script>
+</body>
+
+</html>
